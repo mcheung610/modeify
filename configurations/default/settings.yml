@@ -21,21 +21,21 @@ email:
 
 # Geocoding
 geocode:
-  center: -77.105933,38.880148
+  center: 37.70,-122.48
   zoom: 13
   start_location:
-    address: 4301 13th St NW Washington, DC 20011
-    lat: 38.943037
-    lng: -77.029199
+    address: 1657 Springer Rd. Mountain View, CA 
+    lat: 37.3753583
+    lng: -122.0978933
   end_location:
-    address: 2100 Wilson Blvd, Arlington, VA
-    lat: 38.891254
-    lng: -77.085016
+    address: 185 Berry St, San Francisco, CA
+    lat: 37.7765072
+    lng: -122.3942325
   boundary_rect:
-    min_lat: 38.5
-    min_lon: -77.5
+    min_lat: 37.37 
+    min_lon: -122.09
     max_lat: 39.5
-    max_lon: -76.5
+    max_lon: -123.09
 
 # Default application values
 api_url: /api
@@ -43,17 +43,22 @@ base_url: http://localhost:5000
 
 google_site_verification:
 
-mapbox_access_token:
-mapbox_base_style:
-mapbox_label_style:
-mapbox_base_style_manager:
+mapbox_access_token: pk.eyJ1IjoiY29udmV5YWwiLCJhIjoiMDliQURXOCJ9.9JWPsqJY7dGIdX777An7Pw
+mapbox_base_style: conveyal/cis7l4yrm002ogqnanff6tord
+mapbox_label_style: conveyal/citn0xy6100212iqtvkchps8j
+mapbox_base_style_manager: conveyal/citn0xy6100212iqtvkchps8j
+
+# mapbox_access_token: pk.eyJ1IjoibWNoZXVuZ2x5ZnQiLCJhIjoiY2o1bjRycXJwM2N1bjMzbzJ6cW80N2E5ayJ9.NAb5ooURtaBOxncCUV0zLA
+# mapbox_base_style: mapbox/streets-v10
+# mapbox_label_style: mapbox/streets-v10
+# mapbox_base_style_manager: mapbox/streets-v10
 
 mapzen:
   search:
-    api_key:
+    api_key: mapzen-m79Pb4m
 
 r5:
-  url: http://mock-host.com
+  url: http://localhost:8080/otp/routers/default/index/graphql
 s3_bucket: ''
 segmentio_key: ''
 static_url: /assets
